@@ -92,7 +92,7 @@ class Die //models one single dice cube
   void show()
   {
     noStroke();
-    fill(255);
+    fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
     rect(myX, myY, 50, 50, 7);
   }
 }
